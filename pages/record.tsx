@@ -277,7 +277,7 @@ const AudioRecorderApp = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#cde0ff',
+    backgroundColor: '#78b3ce',
     padding: 26,
   },
   header: {
@@ -354,6 +354,53 @@ const styles = StyleSheet.create({
     color: 'red',
     fontSize: 22,
     marginTop: 32,
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    position: 'absolute',
+    top: 90,
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
+  modalTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: 'white',
+    marginBottom: 32,
+  },
+  modalText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#78b3ce',
+    marginBottom: 32,
+  },
+  textInput: {
+    width: '80%',
+    padding: 16,
+    marginBottom: 20,
+    backgroundColor: 'white',
+    borderWidth: 1,
+    borderColor: '#78b3ce',
+    borderRadius: 8,
+    shadowColor: '#78b3ce',
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+  },
+  submitButton: {
+    width: '80%',
+    backgroundColor: '#78b3ce',
+    borderRadius: 8,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    marginBottom: 24,
+  },
+  submitText: {
+    color: 'white',
+    textAlign: 'center',
   },
 });
 
