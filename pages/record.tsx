@@ -30,7 +30,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const firestore = getFirestore(app);
 
-const AudioRecorderApp = () => {
+const AudioRecorderApp = ( { route }: { route: any } ) => {
   const [recording, setRecording] = useState(null);
   const [recordings, setRecordings] = useState([]);
   const [isRecording, setIsRecording] = useState(false);
