@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
     <Image source={require("../assets/images/hero.jpeg")} style={styles.image} />
-      <Text style={styles.title}>Welcome to Audio Recorder</Text>
+      <Text style={styles.title}>Welcome to AudioSnap</Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate("Record")} // Navigate to Record screen

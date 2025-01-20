@@ -15,8 +15,8 @@ export default function Profile() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Profile</Text>
-      <Text>Email: {user?.email}</Text>
+      <Text style={styles.title}>Welcome to AudioSnap, {user?.displayName}!</Text>
+      <Text style={styles.text}>Email: {user?.email}</Text>
       <Button title="Logout" onPress={handleLogout} />
     </View>
   );
@@ -24,5 +24,7 @@ export default function Profile() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", padding: 16 },
-  title: { fontSize: 24, marginBottom: 16 },
+  title: { fontSize: 34, marginBottom: 16, fontWeight: "bold", color: '#78b3ce' },
+  text: { fontSize: 18, color: '#78b3ce', marginBottom: 16 },
 });
+

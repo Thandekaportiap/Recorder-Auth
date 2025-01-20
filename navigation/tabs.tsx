@@ -21,6 +21,8 @@ export function Tabs() {
       tabBarStyle: { backgroundColor: '#fbf8ef' },
       tabBarActiveTintColor: '#78b3ce',
       tabBarInactiveTintColor: '#c9e6fo',
+      headerShown: false, // Hide the header globally
+      
     }}
   >
         {user ? (
